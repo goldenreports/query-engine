@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{9DB361CB-451C-4C9E-A013-825C1D1344D9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{85E1482A-8EE7-4BA5-98C7-CC3A4C064AA3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoldenReports.QueryEngine", "GoldenReports.QueryEngine\GoldenReports.QueryEngine.csproj", "{60DA62D3-34C9-47A5-8DDD-2C1753F64CFF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoldenReports.QueryEngine.Tests", "GoldenReports.QueryEngine.Tests\GoldenReports.QueryEngine.Tests.csproj", "{05435C9C-E165-457D-83C6-28D93E104BEC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{60DA62D3-34C9-47A5-8DDD-2C1753F64CFF} = {9DB361CB-451C-4C9E-A013-825C1D1344D9}
+		{05435C9C-E165-457D-83C6-28D93E104BEC} = {85E1482A-8EE7-4BA5-98C7-CC3A4C064AA3}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{60DA62D3-34C9-47A5-8DDD-2C1753F64CFF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60DA62D3-34C9-47A5-8DDD-2C1753F64CFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60DA62D3-34C9-47A5-8DDD-2C1753F64CFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60DA62D3-34C9-47A5-8DDD-2C1753F64CFF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{05435C9C-E165-457D-83C6-28D93E104BEC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05435C9C-E165-457D-83C6-28D93E104BEC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05435C9C-E165-457D-83C6-28D93E104BEC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05435C9C-E165-457D-83C6-28D93E104BEC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
